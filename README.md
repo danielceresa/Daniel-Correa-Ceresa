@@ -1,1 +1,194 @@
-# Daniel-Correa-Ceresa
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura e seus Benefícios</title>
+    <style>
+        /* Configurações Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), 
+                        url('https://unsplash.com') no-repeat center/cover;
+            border-radius: 15px;
+            border: 1px solid #1f2833;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #45f3ff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: #66fcf1;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Seção Sobre */
+        .about-section {
+            background-color: #1f2833;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            border-left: 5px solid #45f3ff;
+        }
+
+        .about-section h2 {
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        /* Grid de Benefícios */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background-color: #151a21;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #2d3748;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #45f3ff;
+        }
+
+        .card .icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .card h3 {
+            color: #ffffff;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #a0aec0;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #4a5568;
+            border-top: 1px solid #1f2833;
+            font-size: 0.9rem;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .subtitle { font-size: 1rem; }
+            body { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Cabeçalho com o título solicitado -->
+        <header>
+            <h1>Agricultura e seus Benefícios</h1>
+            <p class="subtitle">O futuro sustentável começa na raiz</p>
+        </header>
+
+        <!-- Introdução Rápida e Fácil de Entender -->
+        <section class="about-section">
+            <h2>O que é Agricultura Sustentável?</h2>
+            <p>É um modelo de produção que garante alimentos saudáveis para a população sem esgotar os recursos naturais do planeta. Ela une o conhecimento tradicional com a tecnologia para cultivar a terra respeitando o meio ambiente, os animais e os trabalhadores.</p>
+        </section>
+
+        <!-- Grid com os Principais Benefícios (Elementos da Agricultura) -->
+        <main class="grid">
+            
+            <!-- Card 1: Solo -->
+            <div class="card">
+                <span class="icon">🌱</span>
+                <h3>Preservação do Solo</h3>
+                <p>Usa técnicas como a rotação de culturas para manter a terra fértil e cheia de nutrientes naturalmente, sem depender de adubos químicos pesados.</p>
+            </div>
+
+            <!-- Card 2: Água -->
+            <div class="card">
+                <span class="icon">💧</span>
+                <h3>Economia de Água</h3>
+                <p>Sistemas inteligentes como a irrigação gota a gota evitam o desperdício, protegendo os rios e os lençóis freáticos da escassez.</p>
+            </div>
+
+            <!-- Card 3: Biodiversidade -->
+            <div class="card">
+                <span class="icon">🐝</span>
+                <h3>Proteção da Vida</h3>
+                <p>Evita pesticidas tóxicos que matam insetos polinizadores importantes, como as abelhas, mantendo o equilíbrio da fauna local.</p>
+            </div>
+
+            <!-- Card 4: Clima -->
+            <div class="card">
+                <span class="icon">☀️</span>
+                <h3>Combate às Mudanças Climáticas</h3>
+                <p>Florestas e plantações bem gerenciadas ajudam a absorver o excesso de gás carbônico (CO2) da atmosfera, limpando o ar.</p>
+            </div>
+
+            <!-- Card 5: Saúde -->
+            <div class="card">
+                <span class="icon">🍎</span>
+                <h3>Alimentos Mais Saudáveis</h3>
+                <p>Gera frutas, legumes e verduras livres de resíduos químicos perigosos, levando mais saúde direto para a mesa da sua família.</p>
+            </div>
+
+            <!-- Card 6: Economia -->
+            <div class="card">
+                <span class="icon">👨‍🌾</span>
+                <h3>Valorização do Produtor</h3>
+                <p>Fortalece a agricultura familiar e as comunidades locais, garantindo trabalho justo e sustento para quem vive no campo.</p>
+            </div>
+
+        </main>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>Cultivando um amanhã melhor através do conhecimento.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
